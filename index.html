@@ -26,13 +26,13 @@
             
             <div class="row"> 
                 <div class="col-xs-4"> 
-                    <button class="btn btn-primary btn-block"> Like <i class="fa fa-thumbs-up"></i></button>
+                    <button class="btn btn-primary btn-block"><i class="fa fa-thumbs-up"></i>Like</button>
                 </div>
                 <div class="col-xs-4"> 
-                    <button class="btn btn-info btn-block"> Info </button>
+                    <button class="btn btn-info btn-block"><i class="fa fa-info-circle"></i>Info</button>
                 </div>
                 <div class="col-xs-4"> 
-                    <button class="btn btn-block btn-danger">Delete</button>
+                    <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i>Delete</button>
                 </div>
                 
             </div>
@@ -49,13 +49,27 @@
               <li>other cats</li>
             </ol>
             <form action="/submit-cat-photo">
-              <label><input type="radio" name="indoor-outdoor"> Indoor</label>
-              <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
-              <label><input type="checkbox" name="personality"> Loving</label>
-              <label><input type="checkbox" name="personality"> Lazy</label>
-              <label><input type="checkbox" name="personality"> Crazy</label>
-              <input type="text" placeholder="cat photo URL" required>
-              <button type="submit">Submit</button>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+                    </div>
+                    <div class="col-xs-6">
+                        <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-xs-4">
+                        <label><input type="checkbox" name="personality"> Loving</label>
+                    </div>
+                    <div class="col-xs-4">
+                        <label><input type="checkbox" name="personality"> Lazy</label>
+                    </div>
+                    <div class="col-xs-4">
+                        <label><input type="checkbox" name="personality"> Crazy</label>
+                    </div>
+                </div>
+              <input type="text" placeholder="Cat photo URL" required class="form-control" >
+              <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>Submit</button>
             </form>
         </div>
         <!-- Js Files -->
