@@ -1,20 +1,43 @@
 body {
-    background-color: powderblue;    
+    background-color: white; 
+    width: 80%;
+    padding: 5em;
+    margin: auto;
+    align-items: center;   
 }
 
 h2 {
     font-family: Lobster, Monospace;
 }
 
-
-.thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-}
+i {
+    margin-right: 10px;
+} 
 
 form {
     display: flex;
     flex-direction: column;
+    border: 2px solid silver;
+    padding: 1em;
+}
+
+.thick-blue-border {
+    border: 5px solid #337ab7;
+    border-radius: 50%;
+}
+
+.img-small {
+    width: 40%;
+}
+
+.img-center {
+    margin: auto;
+}
+
+.buttons-row {
+    margin: 10px 0;
+}
+
+.header {
+    margin-bottom: 20px;
 }
